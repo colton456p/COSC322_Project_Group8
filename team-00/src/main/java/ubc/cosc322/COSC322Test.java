@@ -7,7 +7,6 @@ import java.util.Map;
 import java.util.Scanner;
 
 import javafx.scene.effect.Light.Point;
-import sfs2x.client.entities.Room;
 import ygraph.ai.smartfox.games.BaseGameGUI;
 import ygraph.ai.smartfox.games.GameClient;
 import ygraph.ai.smartfox.games.GameMessage;
@@ -21,7 +20,7 @@ import ygraph.ai.smartfox.games.GamePlayer;
  */
 public class COSC322Test extends GamePlayer{
 
-    private GameClient gameClient = null; 
+    private GameClient gameClient = null;
     private BaseGameGUI gamegui = null;
 	
     private String userName = null;
@@ -32,7 +31,7 @@ public class COSC322Test extends GamePlayer{
      * The main method
      * @param args for name and passwd (current, any string would work)
      */
-    public static void main(String[] args) {				 
+    public static void main(String[] args) {
     	COSC322Test player = new COSC322Test(args[0], args[1]);
     	
     	if(player.getGameGUI() == null) {
@@ -49,7 +48,7 @@ public class COSC322Test extends GamePlayer{
     }
 	
     /**
-     * Any name and passwd 
+     * Any name and passwd
      * @param userName
       * @param passwd
      */

@@ -3,18 +3,18 @@
     <modelVersion>4.0.0</modelVersion>
  
     <groupId>ubc.cosc322</groupId>
-    <artifactId>team-00</artifactId>
+    <artifactId>team-08</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
      
 
-    <name>COSC322-Team-00</name>
+    <name>COSC322-Team-08</name>
     <description>COSC 322 Game Player Project</description>
     <inceptionYear>2021</inceptionYear>
     
 	
-    <dependencies> 
-        <dependency>	        
+    <dependencies>
+        <dependency>
 	    <groupId>ubc-yong-gao</groupId>
             <artifactId>ygraph-ai-smartfox-client</artifactId>
             <version>2.1</version>
@@ -36,15 +36,15 @@
     <url>https:people.ok.uc.ca/yongg</url>
     <developers>
         <developer>
-            <id>Team-00</id>
-            <name>Team members</name>
+            <id>Team-08</id>
+            <name>Colton Palfrey, Mac Vibert, Karam Hejazin, Makoto Kitamura, Omar Hemed</name>
             <email></email>
-        </developer> 
+        </developer>
         <developer>
             <id>yg</id>
             <name>Yong Gao</name>
             <email>yong.gao@ubc.ca</email>
-        </developer> 
+        </developer>
     </developers>
 
     <build>
